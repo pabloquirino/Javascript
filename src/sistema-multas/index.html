@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+<body class="bg-gray-main font-semibold font-arial">
+
+    <main class="bg-gray-main w-9/12 h-300px mx-auto my-4 rounded-xl shadow-main">
+
+        <h1 class="text-center text-2xl py-5 rounded-tr-xl rounded-tl-xl">SISTEMA DE MULTAS <br> DETRAN</h1>
+
+        <div class="text-center mt-4">
+            <label for="number">Sua velocidade foi de: </label>
+            <input type="number" name="" id="number" class="h-5 w-12 rounded-md text-sm" autocomplete="off"> Km/h
+        </div>
+
+        <div class="flex justify-evenly mx-auto mt-6 w-32 text-sm">
+
+            <button class="mr-3 bg-gray-200 hover:bg-green-400 px-2 rounded-xl">VERIFICAR</button>
+
+            <button class="bg-gray-200 hover:bg-red-400 px-2 rounded-xl ">LIMPAR</button>
+
+        </div>
+
+        <div class="text-center mt-6 text-condicao" id="answer">CONDIÇÃO</div>
+
+        <p class="text-center text-sm font-bold mt-4 text-limite">LIMITE DA VIA 100 KM/H</p>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
