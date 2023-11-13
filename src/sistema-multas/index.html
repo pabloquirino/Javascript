@@ -8,28 +8,34 @@
 </head>
 <body class="bg-gray-main font-semibold font-arial">
 
-    <main class="bg-gray-main w-9/12 h-300px mx-auto my-4 rounded-xl shadow-main">
+    <main class="bg-gray-main w-9/12 md:w-7/12 lg:w-5/12 xl:w-4/12 h-300px mx-auto my-4 rounded-xl shadow-main">
 
         <h1 class="text-center text-2xl py-5 rounded-tr-xl rounded-tl-xl">SISTEMA DE MULTAS <br> DETRAN</h1>
 
         <div class="text-center mt-4">
             <label for="number">Sua velocidade foi de: </label>
-            <input type="number" name="" id="number" class="h-5 w-12 rounded-md text-sm" autocomplete="off"> Km/h
+            <input type="number" name="" id="number" class="h-5 w-12 rounded-md text-sm font-medium" autocomplete="off"> Km/h
         </div>
 
         <div class="flex justify-evenly mx-auto mt-6 w-32 text-sm">
 
-            <button class="mr-3 bg-gray-200 hover:bg-green-400 px-2 rounded-xl">VERIFICAR</button>
+            <button class="mr-3 bg-gray-200 hover:bg-gray-400 px-2 rounded-xl" onclick="verificar()">VERIFICAR</button>
 
-            <button class="bg-gray-200 hover:bg-red-400 px-2 rounded-xl ">LIMPAR</button>
+            <button class="bg-gray-200 hover:bg-gray-400 px-2 rounded-xl " onclick="reload()">LIMPAR</button>
 
         </div>
 
-        <div class="text-center mt-6 text-condicao" id="answer">CONDIÇÃO</div>
+        <div class="text-center mt-6 px-2 text-condicao leading-none" id="answer">CONDIÇÃO</div>
 
-        <p class="text-center text-sm font-bold mt-4 text-limite">LIMITE DA VIA 100 KM/H</p>
+        <p class="text-center text-sm font-bold mt-4 pb-3 text-limite">LIMITE DA VIA 100 KM/H</p>
 
     </main>
+
+    <div class="mx-auto w-40">
+        <img src="img/ok.jpg" alt="placa-detran" id="ok" class="hidden">
+        <img src="img/stop.png" alt="placa-detran" id="stop" class="hidden">
+        <img src="img/attention.png" alt="placa-detran" id="attention" class="hidden">
+    </div>
 
     <script src="script.js"></script>
 
