@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-6 {
+  margin: 1.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -546,6 +550,10 @@ video {
 
 .mr-3 {
   margin-right: 0.75rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-4 {
@@ -596,8 +604,16 @@ video {
   width: 10rem;
 }
 
+.w-52 {
+  width: 13rem;
+}
+
 .w-9\/12 {
   width: 75%;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .w-screen {
@@ -618,6 +634,10 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .rounded-md {
@@ -649,6 +669,31 @@ video {
 .bg-green-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
+.bg-madrugada {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-manha {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 51 150 / var(--tw-bg-opacity));
+}
+
+.bg-noite {
+  --tw-bg-opacity: 1;
+  background-color: rgb(80 80 80 / var(--tw-bg-opacity));
+}
+
+.bg-tarde {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 79 27 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -716,6 +761,10 @@ video {
   font-family: Arial, Helvetica, sans-serif;;
 }
 
+.font-cambria {
+  font-family: Cambria, Cochin, Georgia, Times, serif;;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -723,6 +772,11 @@ video {
 
 .text-30pt {
   font-size: 30pt;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-sm {
@@ -740,6 +794,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .leading-none {

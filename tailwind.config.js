@@ -11,10 +11,15 @@ module.exports = {
         'condicao': 'rgb(83, 83, 83)',
         'limite': 'rgb(59, 58, 58)',
         'light-gray': 'rgb(170, 168, 168)',
-        'bold-gray': 'rgb(87, 86, 86)'
+        'bold-gray': 'rgb(87, 86, 86)',
+        'manha': 'rgb(28, 51, 150)',
+        'tarde': 'rgb(156, 79, 27)',
+        'noite': 'rgb(80, 80, 80)',
+        'madrugada': 'rgb(0, 0, 0)'
       },
       fontFamily: {
-        'arial': 'Arial, Helvetica, sans-serif;'
+        'arial': 'Arial, Helvetica, sans-serif;',
+        'cambria': 'Cambria, Cochin, Georgia, Times, serif;'
       },
       fontSize: {
         '30pt': '30pt'
