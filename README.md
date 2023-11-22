@@ -10,3 +10,5 @@ _**03 - clock:**_ https://pabloquirino.github.io/Javascript/src/clock/
 
 _**04 - system DETRAN:**_ https://pabloquirino.github.io/Javascript/src/sistema-multas/
 
+_**05 - age detector:**_ https://pabloquirino.github.io/Javascript/src/
+
