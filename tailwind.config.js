@@ -11,6 +11,7 @@ module.exports = {
         'condicao': 'rgb(83, 83, 83)',
         'limite': 'rgb(59, 58, 58)',
         'light-gray': 'rgb(170, 168, 168)',
+        'lightblue': 'lightblue',
         'bold-gray': 'rgb(87, 86, 86)',
         'manha': 'rgb(28, 51, 150)',
         'tarde': 'rgb(156, 79, 27)',
@@ -25,7 +26,9 @@ module.exports = {
         '30pt': '30pt'
       },
       spacing: {
-        '300px': '300px'
+        '300px': '300px',
+        'ageDetector-main': '400px',
+        '150px': '150px'
       }
     }
   },

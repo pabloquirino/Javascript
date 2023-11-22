@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age-detector</title>
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+<body class="bg-lightblue font-bold font-arial">
+
+    <header class="text-center text-3xl mt-8">
+        <h1>Age Detector</h1>
+    </header>
+
+    <main class="h-300px w-ageDetector-main mx-auto mt-8 rounded-3xl p-3 bg-white">
+
+        <div>
+            <label for="year">Ano de nascimento: </label>
+            <input type="tel" name="" id="year" class="w-20 h-5 border border-gray-500 rounded-sm font-normal" maxlength="4">
+        </div>
+
+        <div class="mt-3">
+            Sexo: 
+            <input type="radio" name="radsex" id="mas">
+            <label for="mas">Masculino</label>
+
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+        </div>
+
+        <div class="text-center mt-4">
+            
+            <button class="bg-gray-300 mr-4 rounded-sm border border-gray-400 text-sm w-32 hover:bg-gray-400" onclick="verificar()">Verificar</button>
+
+            <button class="bg-gray-300 rounded-sm border border-gray-400 text-sm w-32 hover:bg-gray-400" onclick="limpar()">Limpar</button>
+
+        </div>
+
+        <p class="text-center mt-3" id="answer">preencha os dados acima para ver os resultados</p>
+
+        <div class="mx-auto w-150px h-150px">
+            <img src="#" alt="foto" class="rounded-full hidden" id="img">
+        </div>
+
+    </main>
+
+    <footer class="text-center mt-6 font-cambria italic text-lg">
+        <p>&copy;PabloQuirino</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+
+</body>
+</html>
