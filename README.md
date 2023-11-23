@@ -12,3 +12,7 @@ _**04 - system DETRAN:**_ https://pabloquirino.github.io/Javascript/src/sistema-
 
 _**05 - age detector:**_ https://pabloquirino.github.io/Javascript/src/age-detector/
 
+_**06 - counter:**_ https://pabloquirino.github.io/Javascript/src/counter/
+
+_**07 - math project:**_ https://pabloquirino.github.io/Javascript/src/math-project/
+
