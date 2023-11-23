@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Project</title>
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+<body class="bg-lightblue font-bold font-arial">
+
+    <header class="text-center text-3xl mt-8">
+        <h1>Math Project</h1>
+    </header>
+
+    <main class="h-300px w-500px mx-auto mt-8 rounded-3xl p-3 bg-white">
+
+        <div class="text-center">
+            <label for="TEXTnum">Enter a number: </label>
+            <input type="number" name="" id="TEXTnum" maxlength="4" class="w-14 outline-none border border-gray-400 h-6 rounded-md">
+            <button class="bg-gray-200 border border-gray-600 font-normal h-7 text-sm px-3 rounded-md hover:bg-gray-300" onclick="generate()">generate</button>
+        </div>
+
+        <div class="ml-4 flex gap-12">
+
+            <div class="flex flex-col text-sm gap-3 mt-10">
+
+                <div>
+                    <input type="radio" name="radOp" id="add">
+                    <label for="add">addition</label>
+                </div> 
+
+                <div>
+                    <input type="radio" name="radOp" id="sub">
+                    <label for="sub">subtraction</label>
+                </div>
+
+                <div>
+                    <input type="radio" name="radOp" id="mul">
+                    <label for="mul">multiplication</label>
+                </div> 
+
+                <div>
+                    <input type="radio" name="radOp" id="div">
+                    <label for="div">division</label>
+                </div>
+
+            </div>
+
+            <div class="bg-gray-400 mt-5 w-72 h-56 rounded-lg text-center">
+
+                <p class="mt-1">Result:</p>
+
+                <div class="my-2">
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="text-center mt-6 font-cambria italic text-lg">
+        <p>&copy;PabloQuirino</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
