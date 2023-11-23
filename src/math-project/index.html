@@ -15,9 +15,12 @@
     <main class="h-300px w-500px mx-auto mt-8 rounded-3xl p-3 bg-white">
 
         <div class="text-center">
+
             <label for="TEXTnum">Enter a number: </label>
             <input type="number" name="" id="TEXTnum" maxlength="4" class="w-14 outline-none border border-gray-400 h-6 rounded-md">
+
             <button class="bg-gray-200 border border-gray-600 font-normal h-7 text-sm px-3 rounded-md hover:bg-gray-300" onclick="generate()">generate</button>
+            
         </div>
 
         <div class="ml-4 flex gap-12">
@@ -50,7 +53,7 @@
 
                 <p class="mt-1">Result:</p>
 
-                <div class="my-2">
+                <div class="my-2 leading-none text-justify w-40 mx-auto" id="answer">
                     
                 </div>
 

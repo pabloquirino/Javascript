@@ -909,6 +909,10 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .font-arial {
   font-family: Arial, Helvetica, sans-serif;;
 }

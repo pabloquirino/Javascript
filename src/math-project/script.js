@@ -1,19 +1,6 @@
-/*
-
-let num = 5
-
-for (i = 0; i <= 10; i++) {
-     res = num + i 
-     console.log(`${num} + ${i} = ${res}`)
-}
-
-*/
-
-
-
-
 let num = window.document.querySelector('#TEXTnum') 
-let radOp = window.document.getElementsByName('radOP') 
+let radOp = window.document.getElementsByName('radOp') 
+let answer = window.document.querySelector('#answer')
 
 function generate() {
     
@@ -26,11 +13,54 @@ function generate() {
     }
 
     if (num.value.length == 0 || radio === false) { 
-        window.alert('ERROR')
+        window.alert('[ERROR] preencha os dados!')
     }
 
     else {
-        window.alert('lets go')
+
+        if (radOp[0].checked) {
+
+            answer.innerHTML = ''
+
+            for (i = 1; i <= 10; i++) {
+                res = Number(num.value) + i 
+                answer.innerHTML += (`${num.value} + ${i} = ${res} <br>`)
+           }
+
+        }
+
+        else if (radOp[1].checked) {
+
+            answer.innerHTML = ''
+
+            for (i = 1; i <= 10; i++) {
+                res = Number(num.value) - i 
+                answer.innerHTML += (`${num.value} - ${i} = ${res} <br>`)
+           }
+
+        }
+
+        else if (radOp[2].checked) {
+
+            answer.innerHTML = ''
+
+            for (i = 1; i <= 10; i++) {
+                res = Number(num.value) * i 
+                answer.innerHTML += (`${num.value} * ${i} = ${res} <br>`)
+           }
+
+        }
+
+        else {
+
+            answer.innerHTML = ''
+
+            for (i = 1; i <= 10; i++) {
+                res = Number(num.value) / i 
+                answer.innerHTML += (`${num.value} : ${i} = ${res.toFixed(2)} <br>`)
+           }
+        
+        }
     }
 
 }
