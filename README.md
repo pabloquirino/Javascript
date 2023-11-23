@@ -14,3 +14,5 @@ _**05 - age detector:**_ https://pabloquirino.github.io/Javascript/src/age-detec
 
 _**06 - counter:**_ https://pabloquirino.github.io/Javascript/src/counter/
 
+_**07 - math project:**_ https://pabloquirino.github.io/Javascript/src/math-project/
+
