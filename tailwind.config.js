@@ -29,7 +29,8 @@ module.exports = {
         '300px': '300px',
         'ageDetector-main': '400px',
         '150px': '150px',
-        '500px': '500px'
+        '500px': '500px',
+        '400px': '400px'
       }
     }
   },

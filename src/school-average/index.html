@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Average</title>
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+<body class="bg-lightblue font-bold font-arial">
+
+    <header class="text-center text-3xl mt-8">
+        <h1>School Average</h1>
+    </header>
+
+    <main class="w-400px h-400px mx-auto mt-8 rounded-3xl p-3 bg-white">
+
+        <div class="text-center mt-1">
+
+            <label for="numTEXT">Score (between 0 and 100): </label>
+            <input type="number" name="" id="numTEXT" class="w-14 outline-none border border-gray-400 rounded-sm h-6">
+
+            <button class="bg-gray-200 rounded-sm border border-gray-400 text-sm w-20 hover:bg-gray-300" onclick="add()">Add</button>
+
+        </div>
+
+        <select name="" id="list" size="6" class="mt-4 ml-3 w-150px border border-gray-400 text-sm">
+                
+        </select>
+
+        <br>
+
+        <button class="bg-gray-200 rounded-sm border border-gray-400 text-sm w-20 hover:bg-gray-300 ml-3 mt-2" onclick="test()">Test</button>
+
+        <div id="answer" class="mt-5 ml-3 leading-8">
+            
+        </div>
+
+    </main>
+
+    <footer class="text-center mt-6 font-cambria italic text-lg">
+        <p>&copy;PabloQuirino</p>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
