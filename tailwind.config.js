@@ -27,10 +27,12 @@ module.exports = {
       },
       spacing: {
         '300px': '300px',
+        '360px': '360px',
         'ageDetector-main': '400px',
         '150px': '150px',
         '500px': '500px',
-        '400px': '400px'
+        '400px': '400px',
+        '250px': '250px'
       }
     }
   },
