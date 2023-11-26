@@ -20,5 +20,5 @@ _**07 - math project:**_ https://pabloquirino.github.io/Javascript/src/math-proj
 
 _**08 - school average:**_ https://pabloquirino.github.io/Javascript/src/school-average/
 
-_**09 - calculator:**_ https://pabloquirino.github.io/Javascript/src/calculator/ .. in process
+_**09 - calculator:**_ https://pabloquirino.github.io/Javascript/src/calculator/ 
 
