@@ -22,3 +22,5 @@ _**08 - school average:**_ https://pabloquirino.github.io/Javascript/src/school-
 
 _**09 - calculator:**_ https://pabloquirino.github.io/Javascript/src/calculator/ 
 
+### _**Intermediary:**_
+
