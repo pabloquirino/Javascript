@@ -2,7 +2,7 @@
 
 ## Mostrando minha evolução com javascript
 
-### _**Begginer:**_
+### _**Beginner:**_
  
 _**01 - city lights:**_  https://pabloquirino.github.io/Javascript/src/city-lights/
 
