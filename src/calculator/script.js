@@ -2,13 +2,32 @@ let display = window.document.querySelector('#display')
 
 function addToDisplay(value) {
 
-    display.innerHTML += value
+    if (display.textContent == '0') {
+
+        if (value == '+' || value == '-' || value == '*' || value == '/' || value == ',') {
+            display.innerHTML = '0'
+        }
+        else {
+            
+            display.innerHTML = ''
+            display.innerHTML += value
+
+        }
+
+    }
+
+    else {
+        
+        display.innerHTML += value
+
+    }
 
 }
 
 function clearDisplay() {
 
     display.textContent = ''
+    display.innerHTML = '0'
 
 }
 
