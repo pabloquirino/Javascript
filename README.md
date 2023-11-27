@@ -2,7 +2,7 @@
 
 ## Mostrando minha evolução com javascript
 
-### _**Begginer:**_
+### _**Beginner:**_
  
 _**01 - city lights:**_  https://pabloquirino.github.io/Javascript/src/city-lights/
 
@@ -20,5 +20,7 @@ _**07 - math project:**_ https://pabloquirino.github.io/Javascript/src/math-proj
 
 _**08 - school average:**_ https://pabloquirino.github.io/Javascript/src/school-average/
 
-_**09 - calculator:**_ https://pabloquirino.github.io/Javascript/src/calculator/ .. in process
+_**09 - calculator:**_ https://pabloquirino.github.io/Javascript/src/calculator/ 
+
+### _**Intermediary:**_
 
