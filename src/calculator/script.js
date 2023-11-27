@@ -44,6 +44,12 @@ function calculateResult() {
         result = 'ERROR'
     }
 
-    display.innerHTML = `${result}`
+    //função para limitar casas decimais em 2 números após a vírgula
+    function limit(r) {
+        const decimalNumber = (r.toString().split('.')[1] || 0 ).length 
+        return decimalNumber > 2 ? r.toFixed(2) : r
+    }
 
+    display.innerHTML = limit(result)
+    
 }
