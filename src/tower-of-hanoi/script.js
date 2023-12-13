@@ -1,6 +1,6 @@
-const rangeInput = window.document.querySelector('#rangeInput')
-const rangeValue = window.document.querySelector('#rangeValue')
+const rangeInput = document.getElementById('rangeInput')
+const rangeValue = document.getElementById('rangeValue')
 
 rangeInput.addEventListener('input', function () {
-  rangeValue.textContent = rangeInput.value;
+  rangeValue.textContent = rangeInput.value
 })
