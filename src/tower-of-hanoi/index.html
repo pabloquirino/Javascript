@@ -7,27 +7,27 @@
     <link rel="stylesheet" href="../css/output.css">
 </head>
 <body class="font-semibold">
-    <h1 class="text-center mt-10 text-4xl font-cambria">Tower of Hanoi</h1>
+    <h1 id="h1" class="text-center mt-10 text-4xl font-cambria">Tower of Hanoi</h1>
 
     <div class="flex mt-10 justify-center">
 
-        <div class="dropzone">
+        <div id="column1" class="dropzone" ondragover="allowDrop(event)" ondrop="drop(event)">
 
-            <div class="bg-red-600 w-40 disk" draggable="true"></div>
+            <div id="item1" class="bg-red-600 w-40 disk" draggable="true" ondragstart="drag(event)"></div>
 
-            <div class="bg-purple-600 w-52 disk" draggable="true"></div>
+            <div id="item2" class="bg-purple-600 w-52 disk" draggable="true" ondragstart="drag(event)"></div>
 
-            <div class="bg-yellow-600 w-64 disk" draggable="true"></div>
+            <div id="item3" class="bg-yellow-600 w-64 disk" draggable="true" ondragstart="drag(event)"></div>
 
-            <div class="bg-blue-600 w-80 disk" draggable="true"></div>
+            <div id="item4" class="bg-blue-600 w-80 disk" draggable="true" ondragstart="drag(event)"></div>
 
-            <div class="bg-green-600 w-96 disk" draggable="true"></div>
+            <div id="item5" class="bg-green-600 w-96 disk" draggable="true" ondragstart="drag(event)"></div>
 
         </div>
 
-        <div class="dropzone"></div>
+        <div id="column2" class="dropzone" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
 
-        <div class="dropzone"></div>
+        <div id="column3" class="dropzone" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
 
     </div>
 
