@@ -1,8 +1,15 @@
 const rangeInput = document.querySelector('#rangeInput')
 const rangeValue = document.querySelector('#rangeValue')
 
-rangeInput.addEventListener('input', function () {
+rangeInput.addEventListener('input', () => {
+
+  const numElements = Number(rangeInput.value)
   rangeValue.textContent = rangeInput.value
+  
+})
+
+window.document.querySelector('.reset').addEventListener('click', () => {
+  location.reload()
 })
 
 let draggedItem
@@ -22,6 +29,6 @@ function drop(event) {
   const draggedElement = document.getElementById(data)
 
   if (event.target.classList.contains('dropzone')) {
-    event.target.appendChild(draggedElement)
+    event.target.insertBefore(draggedElement, event.target.firstChild) // inserindo elemento arastável antes do primeiro filho existente
   }
 }
