@@ -1,8 +1,4 @@
-# Javascript
-
-## Mostrando minha evolução com javascript
-
-### _**Beginner:**_
+# Mostrando minha evolução com javascript
  
 _**01 - city lights:**_  https://pabloquirino.github.io/Javascript/src/city-lights/
 
@@ -24,5 +20,4 @@ _**09 - calculator:**_ https://pabloquirino.github.io/Javascript/src/calculator/
 
 _**10 - tower of hanoi:**_ https://pabloquirino.github.io/Javascript/src/tower-of-hanoi/ 
 
-### _**Intermediary:**_
 
