@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <link rel="stylesheet" href="../css/output.css">
+</head>
+<body class="overflow-hidden bg-black">
+
+    <div class="flex justify-center items-center h-screen gap-14">
+
+        <div class="absolute w-36 h-36 border-white border-opacity-50 border-2 rounded-full"></div>
+
+        <div class="w-20 h-20 bg-yellow-500 rounded-full ">
+            <div class=" w-8 h-8 bg-blue-400 rounded-full"></div>
+        </div>
+
+    </div>
+
+
+    <script>
+        const orbit = document.querySelector('.border-opacity-50')
+        const planet = document.querySelector('.bg-blue-400')
+
+        let angle = 0
+
+        function orbitPlanet() {
+            angle += 0.02
+            const x = orbit.clientWidth / 6 + Math.cos(angle) * (orbit.clientWidth / 2)
+            const y = orbit.clientHeight / 6 + Math.sin(angle) * (orbit.clientHeight / 2)
+
+            planet.style.transform = `translate(${x}px, ${y}px)`
+            requestAnimationFrame(orbitPlanet)
+        }
+
+        orbitPlanet()
+    </script>
+
+</body>
+</html>
