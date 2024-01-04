@@ -8,32 +8,56 @@
 </head>
 <body class="overflow-hidden bg-black">
 
-    <div class="flex justify-center items-center h-screen gap-14">
+    <div class="flex justify-center items-center h-screen gap-14"><!--centralizar-->
 
-        <div class="absolute w-36 h-36 border-white border-opacity-50 border-2 rounded-full"></div>
-
-        <div class="w-20 h-20 bg-yellow-500 rounded-full ">
+        <!--1° orbita-->
+        <div class="absolute w-200px h-200px border-white border-opacity-50 border-2 rounded-full"></div><!--orbita-->
+        <div class="w-20 h-20 bg-yellow-500 rounded-full absolute">
             <div class=" w-8 h-8 bg-blue-400 rounded-full"></div>
+        </div>
+        
+        <!--2° orbita-->
+        <div class="absolute w-300px h-300px border-white border-opacity-50 border-2 rounded-full"></div><!--orbita-->
+        <div class="w-20 h-20 bg-yellow-500 rounded-full absolute">
+            <div class=" w-8 h-8 bg-green-400 rounded-full"></div>
+        </div>
+
+        <!--3° orbita-->
+        <div class="absolute w-400px h-400px border-white border-opacity-50 border-2 rounded-full"></div><!--orbita-->
+        <div class="w-20 h-20 bg-yellow-500 rounded-full absolute">
+            <div class=" w-8 h-8 bg-red-400 rounded-full"></div>
+        </div>
+
+        <!--4° orbita-->
+        <div class="absolute w-500px h-500px border-white border-opacity-50 border-2 rounded-full"></div><!--orbita-->
+        <div class="w-20 h-20 bg-yellow-500 rounded-full absolute">
+            <div class=" w-8 h-8 bg-purple-400 rounded-full"></div>
         </div>
 
     </div>
+    
 
     <script>
-        const orbit = document.querySelector('.border-opacity-50')
-        const planet = document.querySelector('.bg-blue-400')
+        const orbits = document.querySelectorAll('.border-opacity-50')
+        const planets = document.querySelectorAll('.bg-blue-400, .bg-green-400, .bg-red-400, .bg-purple-400')
 
-        let angle = 0
+        let angles = [0, 0, 0, 0]
 
         function orbitPlanet() {
-            angle += 0.02
-            const x = orbit.clientWidth / 6 + Math.cos(angle) * (orbit.clientWidth / 2)
-            const y = orbit.clientHeight / 6 + Math.sin(angle) * (orbit.clientHeight / 2)
+            angles = angles.map((angle, index) => {
 
-            planet.style.transform = `translate(${x}px, ${y}px)`
+                angle += 0.01 * (index + 1)
+                const x = orbits[index].clientWidth / 19 + Math.cos(angle) * (orbits[index].clientWidth / 2)
+                const y = orbits[index].clientHeight / 15 + Math.sin(angle) * (orbits[index].clientHeight / 2)
+
+                planets[index].style.transform = `translate(${x}px, ${y}px)`
+                return angle
+            })
             requestAnimationFrame(orbitPlanet)
         }
 
         orbitPlanet()
+
     </script>
 
 </body>

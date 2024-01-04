@@ -26,6 +26,8 @@ module.exports = {
         '30pt': '30pt'
       },
       spacing: {
+        '100px': '100px',
+        '200px': '200px',
         '300px': '300px',
         '360px': '360px',
         'ageDetector-main': '400px',
