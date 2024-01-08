@@ -22,6 +22,6 @@ _**10 - tower of hanoi:**_ https://pabloquirino.github.io/Javascript/src/tower-o
 
 _**11 - solar system:**_ https://pabloquirino.github.io/Javascript/src/solar-system/ _**in process..**_
 
-_**11 - dino game:**_ https://pabloquirino.github.io/Javascript/src/dino-game/ _**in process..**_
+_**12- dino game:**_ https://pabloquirino.github.io/Javascript/src/dino-game/ _**in process..**_
 
 
