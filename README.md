@@ -16,9 +16,7 @@ _**07 - math project:**_ https://pabloquirino.github.io/Javascript/src/math-proj
 
 _**08 - school average:**_ https://pabloquirino.github.io/Javascript/src/school-average/
 
-_**10 - tower of hanoi:**_ https://pabloquirino.github.io/Javascript/src/tower-of-hanoi/ 
-
-_**11 - solar system:**_ https://pabloquirino.github.io/Javascript/src/solar-system/ _**in process..**_
+_**09 - solar system:**_ https://pabloquirino.github.io/Javascript/src/solar-system/ _**in process..**_
 
 
 
