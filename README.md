@@ -18,8 +18,10 @@ _**08 - school average:**_ https://pabloquirino.github.io/Javascript/src/school-
 
 _**09 - anagram:**_ https://github.com/pabloquirino/Javascript/blob/main/src/anagram/index.js
 
-<hr>
+_**10 - fibonacci:**_ https://github.com/pabloquirino/Javascript/blob/main/src/fibonacci/index.js
 
-### A partir daqui os projetos não terão interface, portando, estarão disponíveis na pasta **src**
+_**11 - vowels:**_ https://github.com/pabloquirino/Javascript/blob/main/src/vowels/index.js
 
+_**12 - palindrome:**_ https://github.com/pabloquirino/Javascript/blob/main/src/palindrome/index.js
 
+_**12 - binary-search:**_ https://github.com/pabloquirino/Javascript/blob/main/src/binary-search/index.js
