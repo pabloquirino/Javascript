@@ -16,15 +16,5 @@ _**07 - math project:**_ https://pabloquirino.github.io/Javascript/src/math-proj
 
 _**08 - school average:**_ https://pabloquirino.github.io/Javascript/src/school-average/
 
-_**09 - anagram:**_ https://pabloquirino.github.io/Javascript/src/anagram/
-
-_**08 - fibonacci:**_ https://pabloquirino.github.io/Javascript/src/fibonacci/
-
-_**08 - palindrome:**_ https://pabloquirino.github.io/Javascript/src/palindrome/
-
-_**08 - vowels:**_ https://pabloquirino.github.io/Javascript/src/vowels/
-
-_**08 - binary-search:**_ https://pabloquirino.github.io/Javascript/src/binary-search/
-
 
 
