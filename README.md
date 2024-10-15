@@ -16,5 +16,8 @@ _**07 - math project:**_ https://pabloquirino.github.io/Javascript/src/math-proj
 
 _**08 - school average:**_ https://pabloquirino.github.io/Javascript/src/school-average/
 
+<hr>
+
+### A partir daqui os projetos não terão interface, portando, estarão disponíveis na pasta **src**
 
 
